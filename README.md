@@ -38,7 +38,6 @@ A curated list of awesome projects and papers for distributed training or infere
 - [FairScale: PyTorch Extensions for High Performance and Large Scale Training](https://github.com/facebookresearch/fairscale)
 - [TePDist: an HLO-level automatic distributed system for DL models](https://github.com/alibaba/TePDist)
 - [EasyDist: Automated Parallelization System and Infrastructure](https://github.com/alibaba/easydist)
-
 ## Papers
 
 ### Survey
@@ -56,14 +55,16 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Elastic Averaging for Efficient Pipelined DNN Training](https://dl.acm.org/doi/abs/10.1145/3572848.3577484) by Zihao Chen et al. PPoPP 2023
 - [Mobius: Fine Tuning Large-Scale Models on Commodity GPU Servers](https://dl.acm.org/doi/abs/10.1145/3575693.3575703) by Yangyang Feng et al. ASPLOS 2023
 - [Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency](https://dl.acm.org/doi/10.1145/3581784.3607073) by Ziming Liu et al. SC 2023
-- [SDPipe: A Semi-Decentralized Framework for Heterogeneity-Aware Pipeline-parallel Training](https://www.vldb.org/pvldb/vol16/p2354-miao.pdf)
-- [XPipe: Efficient Pipeline Model Parallelism for Multi-GPU DNN Training](http://arxiv.org/abs/1911.04610)
+- [SDPipe: A Semi-Decentralized Framework for Heterogeneity-Aware Pipeline-parallel Training](https://www.vldb.org/pvldb/vol16/p2354-miao.pdf) by Xupeng Miao et al. VLDB 2023
+- [XPipe: Efficient Pipeline Model Parallelism for Multi-GPU DNN Training](http://arxiv.org/abs/1911.04610) by Lei Guan et al.
 
 ### Sequence Parallelism
 
 - [Long Sequence Training from System Perspective](https://aclanthology.org/2023.acl-long.134/) by Shenggui Li et al., ACL 2023
 - [DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models](https://arxiv.org/abs/2309.14509) by Sam Ade Jacobs et al., arxiv 2023
 - [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889) by Hao Liu et al., NeurIPS 2023 Workshop
+
+### Data Parallelism 
 
 ### Mixture-of-Experts System
 
@@ -75,15 +76,13 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Accelerating Distributed MoE Training and Inference with Lina](https://arxiv.org/abs/2210.17223) by Jiamin Li et al., ATC 2023
 - [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Static and Dynamic Parallelization](https://www.usenix.org/conference/atc23/presentation/zhai) by Mingshu Zhai et al., ATC 2023
 - [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts](https://proceedings.mlsys.org/paper_files/paper/2023/hash/f9f4f0db4894f77240a95bde9df818e0-Abstract-mlsys2023.html) by Trevor Gale et al., MLSys 2023
-- [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf)
-
 ### Graph Neural Networks System
 
 - [PiPAD: Pipelined and Parallel Dynamic GNN Training on GPUs](https://dl.acm.org/doi/10.1145/3572848.3577487) Chunyang Wang et al., PPoPP 2023
 - [DSP: Efficient GNN Training with Multiple GPUs](https://dl.acm.org/doi/10.1145/3572848.3577528) Zhenkun Cai et al., PPoPP 2023
 - [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://arxiv.org/abs/2209.06800) Yuke Wang et al., OSDI 2023
 - [GSPMD: General and Scalable Parallelization for ML
-Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf)
+Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf) by Yuanzhong Xu et al. Google
 ### Hybrid Parallelism & Framework
 
 - [Efficient large-scale language model training on GPU clusters using megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209) by Deepak Narayanan et al., SC 2021
@@ -91,6 +90,8 @@ Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf)
 - [Amazon SageMaker Model Parallelism: A General and Flexible Framework for Large Model Training](https://arxiv.org/abs/2111.05972) by Can Karakus et al., arxiv 2021
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arxiv 2021
 - [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://arxiv.org/abs/2110.14883) by Zhengda Bian., arxiv 2021
+- [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf) by Pytorch, arxiv
+- [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf) by Aurick Qiao et al. ATC 2018
 
 ### Memory Efficient Training
 
