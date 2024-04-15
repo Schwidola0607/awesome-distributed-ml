@@ -56,6 +56,8 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Elastic Averaging for Efficient Pipelined DNN Training](https://dl.acm.org/doi/abs/10.1145/3572848.3577484) by Zihao Chen et al. PPoPP 2023
 - [Mobius: Fine Tuning Large-Scale Models on Commodity GPU Servers](https://dl.acm.org/doi/abs/10.1145/3575693.3575703) by Yangyang Feng et al. ASPLOS 2023
 - [Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency](https://dl.acm.org/doi/10.1145/3581784.3607073) by Ziming Liu et al. SC 2023
+- [SDPipe: A Semi-Decentralized Framework for Heterogeneity-Aware Pipeline-parallel Training](https://www.vldb.org/pvldb/vol16/p2354-miao.pdf)
+- [XPipe: Efficient Pipeline Model Parallelism for Multi-GPU DNN Training](http://arxiv.org/abs/1911.04610)
 
 ### Sequence Parallelism
 
@@ -73,13 +75,15 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Accelerating Distributed MoE Training and Inference with Lina](https://arxiv.org/abs/2210.17223) by Jiamin Li et al., ATC 2023
 - [SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Static and Dynamic Parallelization](https://www.usenix.org/conference/atc23/presentation/zhai) by Mingshu Zhai et al., ATC 2023
 - [MegaBlocks: Efficient Sparse Training with Mixture-of-Experts](https://proceedings.mlsys.org/paper_files/paper/2023/hash/f9f4f0db4894f77240a95bde9df818e0-Abstract-mlsys2023.html) by Trevor Gale et al., MLSys 2023
+- [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf)
 
 ### Graph Neural Networks System
 
 - [PiPAD: Pipelined and Parallel Dynamic GNN Training on GPUs](https://dl.acm.org/doi/10.1145/3572848.3577487) Chunyang Wang et al., PPoPP 2023
 - [DSP: Efficient GNN Training with Multiple GPUs](https://dl.acm.org/doi/10.1145/3572848.3577528) Zhenkun Cai et al., PPoPP 2023
 - [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://arxiv.org/abs/2209.06800) Yuke Wang et al., OSDI 2023
-
+- [GSPMD: General and Scalable Parallelization for ML
+Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf)
 ### Hybrid Parallelism & Framework
 
 - [Efficient large-scale language model training on GPU clusters using megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209) by Deepak Narayanan et al., SC 2021
