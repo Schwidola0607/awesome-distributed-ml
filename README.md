@@ -105,7 +105,7 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://arxiv.org/abs/2110.14883) by Zhengda Bian., arxiv 2021
 - [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf) by Pytorch, arxiv
 - [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf) by Aurick Qiao et al. ATC 2018
-- [Beyond Data and Model Parallelism for Deep Neural Networks] (https://arxiv.org/pdf/1807.05358.pdf) by Zhihao Jia et al., SysML 2019
+- [Beyond Data and Model Parallelism for Deep Neural Networks](https://arxiv.org/pdf/1807.05358.pdf) by Zhihao Jia et al., SysML 2019
 - [TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions](https://dl.acm.org/doi/pdf/10.1145/3341301.3359630) by Zhihao Jia et al., SOSP 2019
 
 ### Memory Efficient Training
@@ -119,7 +119,7 @@ A curated list of awesome projects and papers for distributed training or infere
 - [ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training](https://proceedings.mlr.press/v139/chen21z.html) by Jianfei Chen et al., ICML 2021
 - [GACT: Activation Compressed Training for Generic Network Architectures](https://proceedings.mlr.press/v162/liu22v.html) by Xiaoxuan Liu et al., ICML 2022
 - [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/pdf/2205.05198.pdf) by Vijay Korthikanti et al., MLSys 2023
-- [Training Deep Nets with Sublinear Memory Cost] (https://arxiv.org/pdf/1604.06174.pdf) by Tianqi Chen et al., arxiv 2016
+- [Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/pdf/1604.06174.pdf) by Tianqi Chen et al., arxiv 2016
 
 ### Tensor Movement
 
