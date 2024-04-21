@@ -56,6 +56,7 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361.pdf) by Jared Kaplan et al. arxiv 2020
 - [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) by Jordan Hoffmann et al., arxiv 2022
 - [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961.pdf) by William Fedus et al., JMLR 2022
+- [Chinchilla Scaling: A replication attempt](https://arxiv.org/pdf/2404.10102.pdf) by Tamay Besiroglu et al. arxiv 2024
 
 ### Pipeline Parallelism
 
