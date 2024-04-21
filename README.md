@@ -38,12 +38,22 @@ A curated list of awesome projects and papers for distributed training or infere
 - [FairScale: PyTorch Extensions for High Performance and Large Scale Training](https://github.com/facebookresearch/fairscale)
 - [TePDist: an HLO-level automatic distributed system for DL models](https://github.com/alibaba/TePDist)
 - [EasyDist: Automated Parallelization System and Infrastructure](https://github.com/alibaba/easydist)
+- [Horovod: Distributed training framework](https://github.com/horovod/horovod)
+- [Megatron-Deepspeed: Fork of Megatron with additional features](https://github.com/microsoft/Megatron-DeepSpeed)
+- [VLLM- high-throughput and memory-efficient inference and serving engine] (https://github.com/vllm-project/vllm)
 ## Papers
 
 ### Survey
 
 - [Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis](https://arxiv.org/abs/1802.09941) by Tal Ben-Nun et al., ACM Computing Surveys 2020
 - [A Survey on Auto-Parallelism of Neural Networks Training](https://www.techrxiv.org/articles/preprint/A_Survey_on_Auto-Parallelism_of_Neural_Networks_Training/19522414) by Peng Liang., techrxiv 2022
+- [Communication-Efficient Data Parallel Distributed Deep Learning: A Comprehensive Survey](https://arxiv.org/pdf/2003.06307.pdf) by Zhengheng Tang et al., CoRR 2020
+
+### General Scaling
+
+- [Scaling Laws for Neural Language Models](https://arxiv.org/pdf/2001.08361.pdf) by Jared Kaplan et al. arxiv 2020
+- [Training Compute-Optimal Large Language Models](https://arxiv.org/pdf/2203.15556.pdf) by Jordan Hoffmann et al., arxiv 2022
+- [Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://arxiv.org/pdf/2101.03961.pdf) by William Fedus et al., JMLR 2022
 
 ### Pipeline Parallelism
 
@@ -57,11 +67,13 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency](https://dl.acm.org/doi/10.1145/3581784.3607073) by Ziming Liu et al. SC 2023
 - [SDPipe: A Semi-Decentralized Framework for Heterogeneity-Aware Pipeline-parallel Training](https://www.vldb.org/pvldb/vol16/p2354-miao.pdf) by Xupeng Miao et al. VLDB 2023
 - [XPipe: Efficient Pipeline Model Parallelism for Multi-GPU DNN Training](http://arxiv.org/abs/1911.04610) by Lei Guan et al.
+- [TeraPipe: Token-Level Pipeline Parallelism for Training Large-Scale Language Models](https://arxiv.org/pdf/2102.07988.pdf) by Zhuohan Li et al., ICML 2021
 
 ### Sequence Parallelism
 
 - [Long Sequence Training from System Perspective](https://aclanthology.org/2023.acl-long.134/) by Shenggui Li et al., ACL 2023
 - [DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models](https://arxiv.org/abs/2309.14509) by Sam Ade Jacobs et al., arxiv 2023
+- [Blockwise Parallel Transformer for Large Context Windows](https://arxiv.org/pdf/2305.19370.pdf) by Hao Liu et al., NeurIPS 2023 Spotlight
 - [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889) by Hao Liu et al., NeurIPS 2023 Workshop
 
 ### Data Parallelism 
@@ -81,10 +93,9 @@ A curated list of awesome projects and papers for distributed training or infere
 - [PiPAD: Pipelined and Parallel Dynamic GNN Training on GPUs](https://dl.acm.org/doi/10.1145/3572848.3577487) Chunyang Wang et al., PPoPP 2023
 - [DSP: Efficient GNN Training with Multiple GPUs](https://dl.acm.org/doi/10.1145/3572848.3577528) Zhenkun Cai et al., PPoPP 2023
 - [Accelerating Graph Neural Networks with Fine-grained intra-kernel Communication-Computation Pipelining on Multi-GPU Platforms](https://arxiv.org/abs/2209.06800) Yuke Wang et al., OSDI 2023
-- [GSPMD: General and Scalable Parallelization for ML
-Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf) by Yuanzhong Xu et al. Google
 ### Hybrid Parallelism & Framework
 
+- [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arxiv 2021
 - [Efficient large-scale language model training on GPU clusters using megatron-LM](https://dl.acm.org/doi/10.1145/3458817.3476209) by Deepak Narayanan et al., SC 2021
 - [GEMS: GPU-Enabled Memory-Aware Model-Parallelism System for Distributed DNN Training](https://ieeexplore.ieee.org/document/9355254) by Arpan Jain et al., SC 2020
 - [Amazon SageMaker Model Parallelism: A General and Flexible Framework for Large Model Training](https://arxiv.org/abs/2111.05972) by Can Karakus et al., arxiv 2021
@@ -92,15 +103,21 @@ Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf) by Yuanzhong Xu et al.
 - [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://arxiv.org/abs/2110.14883) by Zhengda Bian., arxiv 2021
 - [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf) by Pytorch, arxiv
 - [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf) by Aurick Qiao et al. ATC 2018
+- [Beyond Data and Model Parallelism for Deep Neural Networks] (https://arxiv.org/pdf/1807.05358.pdf) by Zhihao Jia et al., SysML 2019
+- [TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions](https://dl.acm.org/doi/pdf/10.1145/3341301.3359630) by Zhihao Jia et al., SOSP 2019
 
 ### Memory Efficient Training
 
+- [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf) by Sharan Narang et al., ICLR 2018
 - [Training deep nets with sublinear memory cost](https://arxiv.org/abs/1604.06174) by Tianqi Chen et al., arxiv 2016
+- [Gist: Efficient Data Encoding for Deep Neural Network Training](https://www.microsoft.com/en-us/research/uploads/prod/2018/04/fiddle-gist-isca18.pdf) by Animesh Jain et al., ISCA 2018
 - [ZeRO: memory optimizations toward training trillion parameter models](https://dl.acm.org/doi/10.5555/3433701.3433727) by Samyam Rajbhandari et al., SC 2020
 - [Checkmate: Breaking the Memory Wall with Optimal Tensor Rematerialization](https://proceedings.mlsys.org/paper/2020/hash/084b6fbb10729ed4da8c3d3f5a3ae7c9-Abstract.html) by Paras Jain et al., MLSys 2020
 - [Dynamic Tensor Rematerialization](https://arxiv.org/abs/2006.09616) by Marisa Kirisame et al., ICLR 2021
 - [ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training](https://proceedings.mlr.press/v139/chen21z.html) by Jianfei Chen et al., ICML 2021
 - [GACT: Activation Compressed Training for Generic Network Architectures](https://proceedings.mlr.press/v162/liu22v.html) by Xiaoxuan Liu et al., ICML 2022
+- [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/pdf/2205.05198.pdf) by Vijay Korthikanti et al., MLSys 2023
+- [Training Deep Nets with Sublinear Memory Cost] (https://arxiv.org/pdf/1604.06174.pdf) by Tianqi Chen et al., arxiv 2016
 
 ### Tensor Movement
 
@@ -119,7 +136,6 @@ Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf) by Yuanzhong Xu et al.
 - [Exploring Hidden Dimensions in Parallelizing Convolutional Neural Networks](https://arxiv.org/abs/1802.04924) by Zhihao Jia et al., ICML 2018
 - [Beyond Data and Model Parallelism for Deep Neural Networks](https://proceedings.mlsys.org/paper/2019/hash/c74d97b01eae257e44aa9d5bade97baf-Abstract.html) by Zhihao Jia et al., MLSys 2019
 - [Supporting Very Large Models using Automatic Dataflow Graph Partitioning](https://dl.acm.org/doi/abs/10.1145/3302424.3303953) by Minjie Wang et al., EuroSys 2019
-- [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arxiv 2021
 - [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) by Lianmin Zheng et al., OSDI 2022
 - [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization](https://www.usenix.org/conference/osdi22/presentation/unger) by Colin Unger, Zhihao Jia, et al., OSDI 2022
 - [Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism](https://arxiv.org/abs/2211.13878) by Xupeng Miao, et al., VLDB 2023
@@ -138,6 +154,13 @@ Computation Graphs](https://arxiv.org/pdf/2105.04663.pdf) by Yuanzhong Xu et al.
 - [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://dl.acm.org/doi/abs/10.1145/3600006.3613152) by Insu Jang et al., SOSP 2023
 - [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://www.usenix.org/conference/nsdi23/presentation/thorpe) by John Thorpe et al., NSDI 2023
 - [Varuna: scalable, low-cost training of massive deep learning models](https://dl.acm.org/doi/abs/10.1145/3492321.3519584) by Sanjith Athlur et al., EuroSys 2022
+- [Decentralized Training of Foundation Models in Heterogeneous Environments](https://arxiv.org/pdf/2206.01288.pdf) by Binhuang Yuan et al., NeurIPS 2022
+
+### Sparsity and Quantization
+- [Hogwild!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](https://arxiv.org/pdf/1106.5730.pdf) by Feng Niu et al., NeurIPS 2011
+- [Sparse Communication for Distributed Gradient Descent](https://arxiv.org/pdf/1704.05021.pdf) by Alham Aji et al., EMNLP 2017
+- [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904) by Jiawei Fei et al., KAUST 2020
+- [Natural Compression for Distributed Deep Learning](https://arxiv.org/pdf/1905.10988.pdf) by Samuel Horvath et al., MLR 2022
 
 ### Inference and Serving
 
