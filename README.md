@@ -41,7 +41,7 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Horovod: Distributed training framework](https://github.com/horovod/horovod)
 - [Megatron-Deepspeed: Fork of Megatron with additional features](https://github.com/microsoft/Megatron-DeepSpeed)
 - [VLLM: high-throughput and memory-efficient inference and serving engine](https://github.com/vllm-project/vllm)
-- [Large Language Model Text Generation Inference](https://github.com/huggingface/text-generation-inference)
+- [TGI: Large Language Model Text Generation Inference](https://github.com/huggingface/text-generation-inference)
 - [JetStream: throughput and memory optimized engine for LLM inference on XLA devices](https://github.com/google/JetStream)
 ## Papers
 
