@@ -1,7 +1,7 @@
 # Awesome Distributed Machine Learning System
 
 ![Awesome](https://awesome.re/badge.svg)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/shenggan/awesome-distributed-ml/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Schwidola0607/awesome-distributed-ml/pulls)
 
 A curated list of awesome projects and papers for distributed training or inference **especially for large model**.
 
@@ -158,15 +158,16 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://www.usenix.org/conference/nsdi23/presentation/thorpe) by John Thorpe et al., NSDI 2023
 - [Varuna: scalable, low-cost training of massive deep learning models](https://dl.acm.org/doi/abs/10.1145/3492321.3519584) by Sanjith Athlur et al., EuroSys 2022
 - [Decentralized Training of Foundation Models in Heterogeneous Environments](https://arxiv.org/pdf/2206.01288.pdf) by Binhuang Yuan et al., NeurIPS 2022
+- [GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints](https://assets.amazon.science/29/31/6523473f48e4af52252bac56ef51/gemini-fast-failure-recovery-in-distributed-training-with-in-memory-checkpoints.pdf) by Zhuang Wang et al., SOSP 2023
 
 ### Sparsity and Quantization
 - [Hogwild!: A Lock-Free Approach to Parallelizing Stochastic Gradient Descent](https://arxiv.org/pdf/1106.5730.pdf) by Feng Niu et al., NeurIPS 2011
 - [Sparse Communication for Distributed Gradient Descent](https://arxiv.org/pdf/1704.05021.pdf) by Alham Aji et al., EMNLP 2017
 - [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904) by Jiawei Fei et al., KAUST 2020
 - [Natural Compression for Distributed Deep Learning](https://arxiv.org/pdf/1905.10988.pdf) by Samuel Horvath et al., MLR 2022
+- [Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training](https://arxiv.org/pdf/1712.01887.pdf) by Yujun Lin et al., ICLR 2018
 
 ### Inference and Serving
-
 - [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946) by Reza Yazdani Aminabadi et al., SC 2022
 - [EnergonAI: An Inference System for 10-100 Billion Parameter Transformer Models](https://arxiv.org/abs/2209.02341) by Jiangsu Du et al., arxiv 2022
 - [Efficiently Scaling Transformer Inference](https://arxiv.org/abs/2211.05102) by Reiner Pope et al., MLSys 2022
@@ -174,6 +175,10 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Fast inference from transformers via speculative decoding](https://arxiv.org/abs/2211.17192) by Yaniv Leviathan et al., ICML 2023
 - [FlexGen: High-throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/abs/2303.06865) by Ying Sheng et al., ICML 2023
 - [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) by Jiangsu Du et al., PPoPP 2024
+
+### Compute Sharing and Scheduling
+- [Orion: Interference-aware, Fine-grained GPU Sharing for ML Applications](https://anakli.inf.ethz.ch/papers/orion_eurosys24.pdf) by Foteini Strati et al., EuroSys 2024
+- [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/pdf/2202.07848.pdf) by Dharma Shukla et al., arxiv 2022
 
 ### Applications
 
@@ -184,4 +189,4 @@ A curated list of awesome projects and papers for distributed training or infere
 
 ## Contribute
 
-All contributions to this repository are welcome. Open an [issue](https://github.com/shenggan/awesome-distributed-ml/issues) or send a [pull request](https://github.com/shenggan/awesome-distributed-ml/pulls).
+All contributions to this repository are welcome. Open an [issue](https://github.com/Schwidola0607/awesome-distributed-ml/issues) or send a [pull request](https://github.com/Schwidola0607/awesome-distributed-ml/pulls).
