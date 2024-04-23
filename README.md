@@ -121,6 +121,8 @@ A curated list of awesome projects and papers for distributed training or infere
 - [GACT: Activation Compressed Training for Generic Network Architectures](https://proceedings.mlr.press/v162/liu22v.html) by Xiaoxuan Liu et al., ICML 2022
 - [Reducing Activation Recomputation in Large Transformer Models](https://arxiv.org/pdf/2205.05198.pdf) by Vijay Korthikanti et al., MLSys 2023
 - [Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/pdf/1604.06174.pdf) by Tianqi Chen et al., arxiv 2016
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf) by Tri Dao et al., NeurIPS 2022
+- [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/pdf/2307.08691.pdf) by Tri Dao, ICLR 2024
 
 ### Tensor Movement
 
