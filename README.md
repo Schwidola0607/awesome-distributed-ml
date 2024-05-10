@@ -71,6 +71,7 @@ A curated list of awesome projects and papers for distributed training or infere
 - [SDPipe: A Semi-Decentralized Framework for Heterogeneity-Aware Pipeline-parallel Training](https://www.vldb.org/pvldb/vol16/p2354-miao.pdf) by Xupeng Miao et al. VLDB 2023
 - [XPipe: Efficient Pipeline Model Parallelism for Multi-GPU DNN Training](http://arxiv.org/abs/1911.04610) by Lei Guan et al.
 - [TeraPipe: Token-Level Pipeline Parallelism for Training Large-Scale Language Models](https://arxiv.org/pdf/2102.07988.pdf) by Zhuohan Li et al., ICML 2021
+- [Zero Bubble Pipeline Parallelism](https://arxiv.org/pdf/2401.10241) by Penghui Qi et al., ICLR 2024
 
 ### Sequence Parallelism
 
