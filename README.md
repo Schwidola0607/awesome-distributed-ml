@@ -169,6 +169,8 @@ A curated list of awesome projects and papers for distributed training or infere
 - [Efficient Sparse Collective Communication and its application to Accelerate Distributed Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3452296.3472904) by Jiawei Fei et al., KAUST 2020
 - [Natural Compression for Distributed Deep Learning](https://arxiv.org/pdf/1905.10988.pdf) by Samuel Horvath et al., MLR 2022
 - [Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training](https://arxiv.org/pdf/1712.01887.pdf) by Yujun Lin et al., ICLR 2018
+- [SlowMo: Improving Communication-Efficient Distributed SGD with Slow Momentum](https://arxiv.org/pdf/1910.00643) by Jianyu Wang et al., ICLR 2020
+- [Stochastic Gradient Push for Distributed Deep Learning](https://arxiv.org/pdf/1811.10792) by Mahmoud Assran et al., ICML 2019
 
 ### Inference and Serving
 - [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/abs/10.5555/3571885.3571946) by Reza Yazdani Aminabadi et al., SC 2022
@@ -182,6 +184,8 @@ A curated list of awesome projects and papers for distributed training or infere
 ### Compute Sharing and Scheduling
 - [Orion: Interference-aware, Fine-grained GPU Sharing for ML Applications](https://anakli.inf.ethz.ch/papers/orion_eurosys24.pdf) by Foteini Strati et al., EuroSys 2024
 - [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/pdf/2202.07848.pdf) by Dharma Shukla et al., arxiv 2022
+- [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf) by Aurick Qiao et al., OSDI 2021
+- [Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling](https://dl.acm.org/doi/pdf/10.1145/3600006.3613175) by Suhas Jayaram Subramanya et al., SOSP 2023
 
 ### Applications
 
